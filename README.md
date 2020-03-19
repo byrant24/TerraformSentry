@@ -10,3 +10,9 @@ To let terraform to create an execution plan.
 To apply the changes required to reach the desired state of the configuration
 
         terraform apply
+
+Note: AWS credentials must be configured.
+
+        aws configure
+        EXPORT Access key ID = XXXXXXXXXXXXXX
+        EXPORT Secret access key = XXXXXXXXXXXX

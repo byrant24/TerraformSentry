@@ -16,3 +16,8 @@ Note: AWS credentials must be configured.
         aws configure
         EXPORT Access key ID = XXXXXXXXXXXXXX
         EXPORT Secret access key = XXXXXXXXXXXX
+
+Components:
+
+variables.tf conatians all the variables required in the module.
+connections.tf specifies the aws connection provider.
